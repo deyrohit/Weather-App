@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Weather App</string>
     <string name="made_by_rohit">Made By Rohit</string>
+    <string name="today">Today</string>
+    <string name="_00_00_c">00:00 °C</string>
+    <string name="sunny">Sunny</string>
 </resources>
