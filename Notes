@@ -7,5 +7,9 @@ FrameLaout
 Linear Layout
 Flow
 
+Api Link - https://api.openweathermap.org/data/2.5/weather?q={City}&appid={key id}
+
+Use Plugin for Kotlin to convert Json String into Kotlin data class code quickly
+
 Lottie
 https://github.com/airbnb/lottie-android
