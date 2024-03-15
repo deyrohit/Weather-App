@@ -13,3 +13,46 @@ Use Plugin for Kotlin to convert Json String into Kotlin data class code quickly
 
 Lottie
 https://github.com/airbnb/lottie-android
+
+//Lottie Animation
+implementation ("com.airbnb.android:lottie:6.3.0")
+
+Use JasontoKotlin Class Plugin for help
+
+//Retrofit
+implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+
+//Gson Convertor
+implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+Implementation
+
+val url ="https://api.openweathermap.org/data/2.5/"
+        val  retrofit =Retrofit.Builder()
+            .addConverterFactory(GsonConverterFactory.create())
+            .baseUrl(url)
+            .build().create(ApiInterface ::class.java)
+
+        val response =retrofit.getWeatherData("durgapur","ec925c5bcd1bd8198f9e8363aec1196e","metric")
+        response.enqueue(object :Callback<WeatherApp>{
+            override fun onResponse(call: Call<WeatherApp>, response: Response<WeatherApp>) {
+                val responsebody =response.body()
+                if(responsebody!=null && response.isSuccessful) 
+                {
+                    val temp = responsebody.main.temp.toString()
+                    Log.d("TAG", "onResponse: $temp")
+                }
+            }
+
+            override fun onFailure(call: Call<WeatherApp>, t: Throwable) {
+                Log.d("TAG1", "onResponse: Cannot Acess It")
+            }
+
+        })
+
+@GET("weather")
+    fun getWeatherData(
+        @Query("q") city: String,
+        @Query("appid") apiKey: String,
+        @Query("units") units: String
+    ):Call<WeatherApp>
