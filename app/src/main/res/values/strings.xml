@@ -20,4 +20,6 @@
     <string name="sun_rise">Sun Rise</string>
     <string name="monday">Monday</string>
     <string name="sunsetimage">TODO</string>
+    <string name="feel_like">Feel like :</string>
+    <string name="thunderstrom">THUNDERSTROM</string>
 </resources>
