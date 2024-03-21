@@ -11,3 +11,5 @@ To enhance the user experience, I integrated the Lottie Library for smooth anima
 To enhance the user experience, I integrated the different images to show different weather condition.
 
 The app fetches weather data from a trusted API using Retrofit and the GSON Converter. This ensures that users receive reliable and up-to-date information.
+
+![WhatsApp Image 2024-03-21 at 14 23 06_7b2735c6](https://github.com/deyrohit/Weather-App/assets/88137895/8caa5f79-dce2-4be7-8fee-5d88a486b8de)
