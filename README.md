@@ -14,8 +14,10 @@ The app fetches weather data from a trusted API using Retrofit and the GSON Conv
 
 Here are the few Screenshot of Weather App
 
+![WhatsApp Image 2024-03-21 at 14 23 06_7b2735c6](https://github.com/deyrohit/Weather-App/assets/88137895/baa142c8-0c0a-4d80-8aa2-b29e9a9226c1)
 
+![WhatsApp Image 2024-03-21 at 14 23 06_f95e6a15](https://github.com/deyrohit/Weather-App/assets/88137895/9f9738be-4fc0-4910-a33e-79f7874c6dfc)
 
+![WhatsApp Image 2024-03-21 at 14 23 07_cceded51](https://github.com/deyrohit/Weather-App/assets/88137895/6391684d-9ed0-4f31-ba94-407e5041bb14)
 
-
-![WhatsApp Image 2024-03-21 at 14 23 06_7b2735c6](https://github.com/deyrohit/Weather-App/assets/88137895/8caa5f79-dce2-4be7-8fee-5d88a486b8de)
+![WhatsApp Image 2024-03-21 at 14 23 07_e5b38c80](https://github.com/deyrohit/Weather-App/assets/88137895/5ca53ffb-7e97-47ac-9f78-202d08f547b0)
